@@ -1,5 +1,18 @@
 [{
+  "title": "Front-end Inspiration",
+  "description" : "BSU & BSUIR promo lecture",
+  "module": "Intro",
+  "speakers": [{
+    "name": "Dzmitry Varabei & Dzmitry Herasimov",
+    "slides": [{
+      "title": "Front-end Development",
+      "href": "http://dzmitry-varabei.github.io/js-for-dummies/#/"
+    }]
+  }],
+  "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=0&entry.1387272617"
+},{
   "title": "Course Overview. Useful tools. Git Basics",
+  "module": "Intro",
   "speakers": [{
     "name": "Dzmitry Varabei",
     "slides": [{
@@ -90,11 +103,11 @@
   }],
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=4&entry.1387272617"
 }, {
-  "title": "RWD",
+  "title": "Responsive Web Design",
   "speakers": [{
     "name": "Stanislau Zubovich",
     "slides": [{
-      "title": "RWD",
+      "title": "Responsive Web Design",
       "href": "https://www.dropbox.com/s/e2plw27yjj2s7qz/RWD.zip?dl=0"
     }]
   }],
@@ -102,6 +115,7 @@
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=5&entry.1387272617"
 }, {
   "title": "Reallife UI Mockup Examples. CSS Quickdraw",
+  "description":"* Competition\n   * Reallife UI Mockup Examples\n     * Responsibilities of HTML Coder\n     * Browser List\n     * Using CMS\n     * Perfomance improvements\n     * Adaptive Web Design\n     * Testing",
   "speakers": [{
     "name": "Nastassia Tayanouskaya",
     "slides": [{
@@ -119,6 +133,7 @@
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=6&entry.1387272617"
 }, {
   "title": "CSS Cookbook",
+  "description":"   * Centering elements\n   * Ellipsis\n   * Pseudo-elements\n   * Footer\n   * Sliding-door technique",
   "speakers": [{
     "name": "Nastassia Tayanouskaya",
     "slides": [{
@@ -157,7 +172,8 @@
   }],
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=9&entry.1387272617"
 }, {
-  "title": "JavaScript Overview. Data Types. Objects",
+  "title": "JavaScript Intro",
+  "description":"   * JavaScript is everywhere\n   * History\n   * Data Types\n   * Object\n   * \\_\\_proto\\_\\_\n   * Primitive data types\n   * Array\n   * Operators",
   "speakers": [{
     "name": "Dzmitry Varabei",
     "slides": [{
@@ -170,7 +186,8 @@
   }],
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=10&entry.1387272617"
 }, {
-  "title": "JavaScript Intro",
+  "title": "JavaScript Overview. Data Types. Objects",
+  "description":"   * Variables\n   * Scope\n   * Global Scope\n   * Namespaces\n   * Hoisting",
   "speakers": [{
     "name": "Dzmitry Varabei",
     "slides": [{
@@ -302,6 +319,7 @@
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=18&entry.1387272617"
 }, {
   "title": "JQuery",
+  "description":"   * Why to use it?\n   * Selectors\n   * working with DOM (manipulation, events, animation)\n   * plugins\n   * Practical taks (Towers of hanoi)",
   "speakers": [{
     "name": "Andrei Yanovich",
     "slides": [{
@@ -312,6 +330,7 @@
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=19&entry.1387272617"
 }, {
   "title": "Animations",
+  "description":"   * CSS3 Transitions\n   * CSS3 Transforms\n   * requestAnimationFrame\n   * Performance issues\n   * Practical task",
   "speakers": [{
     "name": "Kiryl Dziamura",
     "slides": [{
@@ -321,7 +340,8 @@
   }],
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=20&entry.1387272617"
 }, {
-  "title": "Project structure and asset management. (Node.js, NPM, Bower, Gulp, Yeoman)",
+  "title": "Project structure and asset management.",
+  "description":"   * Node.js\n   * NPM\n   * Gulp\n   * Yeoman\n   * Practical task",
   "speakers": [{
     "name": "Andrei Volchenko",
     "slides": [{
@@ -332,6 +352,7 @@
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=21&entry.1387272617"
 }, {
   "title": "How browser works. Paint and Compositing. Network Basics",
+  "description":"   * Page Render Cycle\n   * Frame budget\n   * Paint\n   * Software mode vs Accelerated compositing mode\n   * Profiling tools",
   "speakers": [{
     "name": "Dzmitry Varabei",
     "slides": [{
@@ -365,6 +386,7 @@
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=23&entry.1387272617"
 }, {
   "title": "Ajax. Promise Pattern",
+  "description":"   * Ajax\n     * WTF is ajax (sync vs async web app model)\n     * History\n     * XHR api (content types, status, readyState, onreadystatechange, props, methods)\n     * JQuery ajax\n     * Same origin policy\n     * JSONP\n     * CORS\n     * COMET, WS\n     * pros/cons\n   * Promise:\n     * JQuery deferreds API\n     * Examples\n     * Promise\n     * Promise states\n     * Promise API\n     * Example with ajax",
   "speakers": [{
     "name": "Andrei Yanovich",
     "slides": [{
@@ -378,6 +400,7 @@
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=24&entry.1387272617"
 }, {
   "title": "WebSocket Challenge",
+  "description":"   * What is websocket?\n   * Websocket API\n   * Typed arrays\n   * Сompetition",
   "speakers": [{
     "name": "Alexander Gerasimov",
     "slides": [{
@@ -387,7 +410,8 @@
   }],
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=25&entry.1387272617"
 }, {
-  "title": "Network. WebPageTest. Google PageSpeed Insights",
+  "title": "Network. Part II",
+  "description":"   * Bandwidth and Latency\n   * General HTTP Request/Response lifecycle\n   * SPDY\n   * Google PageSpeed Insights\n   * Google WebPageTest",
   "speakers": [{
     "name": "Dzmitry Varabei",
     "slides": [{

@@ -33,7 +33,7 @@
         Алгоритмы и структуры данных на уровне: <a href="https://www.coursera.org/course/algs4partI">https://www.coursera.org/course/algs4partI</a>
       </p>
     </section>
-    <section><a href="https://www.youtube.com/playlist?list=PLbZju76qr6FH77EtbZFLHZRb7IY7Ve6Uu">Front-end course podcast</a></section>
+    <section><i class="fa fa-youtube-play"></i> <a href="https://www.youtube.com/playlist?list=PLbZju76qr6FH77EtbZFLHZRb7IY7Ve6Uu">Front-end course podcast</a></section>
     <section>
       <h2>Tasks</h2>
       <ul class="tasks">
@@ -50,12 +50,18 @@
         <h3 class="talk-title">
           {{index}}. {{title}}
           <a href="{{&feedback_url}}" class="btn-feedback">Feedback</a></h3>
+        {{#module}}
+            <h5>Module: {{module}}</h5>
+        {{/module}}
+        {{#description}}
+            <p>{{{description}}}</p>
+        {{/description}}
         <ul class="talks">
           {{#speakers}}
           <li class="talk-item">
             <span class="talk-speaker">{{name}}</span>
             {{#slides}}
-              <a href="{{&href}}" class="talk-item-link">{{title}}</a>
+                <a href="{{&href}}" class="talk-item-link"><i class="fa fa-slideshare"></i> {{title}}</a>
             {{/slides}}
           </li>
           {{/speakers}}
