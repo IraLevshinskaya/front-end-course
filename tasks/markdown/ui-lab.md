@@ -5,7 +5,7 @@ Deadline         | Folder Name
 11.03.2015 23:59 | ui_lab
 
 ###Требования:
-1. верстка в соответствии с [макетом](http://rolling-scopes.github.io/front-end-course/tasks/task1b.png)
+1. верстка в соответствии с [макетом](http://school.rollingscopes.com/tasks/task1b.png)
 2. использование семантической верстки
 3. адекватные ховер стили
 4. страничка открывается в последней версии хрома
