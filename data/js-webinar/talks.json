@@ -10,4 +10,7 @@
 }, {
 	"title": "DOM",
 	"slides_href": "http://school.rollingscopes.com/slides/dom/"
+}, {
+  "title": "JS Functions. Part I",
+  "slides_href": "http://dzmitry-varabei.github.io/front-end-course/lecture-5-func/"
 }]
