@@ -1,10 +1,28 @@
-##Join our skype chat
+## Join our skype chat
 1. Install Skype and create a skype account
-2. Open Internet Explorer
-3. Copy-paste the following link:
+2. Click [here](skype:?chat&blob=Krptr3bh0fHzg2dOVjE8iy_uYoKCVPywPDZwWQJTKyAaoXffGFeuqDa6hq_r9hvo3zScXkwCEyNWzA)
 
-skype:?chat&blob=Zd_eInTRYsRxnM_N9Kxn7J75dEpcSK-nDMHV69saolq4MzBGDt9CgzOGq3b4SVdo1jlxI1mgIh_mAwZ5
+If something went wrong
+1. Open Internet Explorer
+2. Copy-paste the following link:
 
+skype:?chat&blob=Krptr3bh0fHzg2dOVjE8iy_uYoKCVPywPDZwWQJTKyAaoXffGFeuqDa6hq_r9hvo3zScXkwCEyNWzA
+
+---
+* Create [github](https://github.com/) account
+* Create [codewars](http://www.codewars.com/) account
+* Create [codeschool](https://www.codeschool.com/) account
+
+<small>You can use github account to login to codewars and codeschool</small>
+
+Fill [Score](https://docs.google.com/spreadsheets/d/1W2NI28cE8a4bXv31DNe4kaVhaTHGdLF1Z-tbA3e8Ub8/edit?usp=sharing)
+
+https://docs.google.com/spreadsheets/d/1W2NI28cE8a4bXv31DNe4kaVhaTHGdLF1Z-tbA3e8Ub8/edit?usp=sharing
+
+#### How to get codeschool id
+![](http://i.imgur.com/Qti10Hf.png)
+
+![](http://i.imgur.com/FrRuCAl.png)
 ## Install the following software on your machine
 * http://nodejs.org/
 * http://git-scm.com/downloads
@@ -17,25 +35,3 @@ skype:?chat&blob=Zd_eInTRYsRxnM_N9Kxn7J75dEpcSK-nDMHV69saolq4MzBGDt9CgzOGq3b4SVd
 * (optional) http://git-scm.com/book
 * (optional) https://www.udacity.com/course/ud775
 * .gitignore best practices
-
-## Create a Bitbucket account and a git repository
-1. Create a Bitbucket account. __Username must be - FirstName_LastName__
-2. Create a Git repository
-  * Access level: private repository.
-  * Name: front-end-course (should be exactly like this!)
-3. Invite us
-  "invite your friends" -> "Send an invitation" -> type "rolling_scopes" -> press "Share" button
-
-   **Your repository should has following structure**:
-   ```
-   front-end-course (repository itself)
-        task1a
-        task1b
-        task2
-        ...
-   ```
-### Сreate a "Bitbucket Page" about yourself
-For more details, please check out - http://pages.bitbucket.org/
-
-## Fill "Score" form
-https://docs.google.com/spreadsheet/ccc?key=0AnUA7wlxcI_-dFphZEFyUHFPZlJDS2hLbVJIc0VYREE&usp=drive_web#gid=0
