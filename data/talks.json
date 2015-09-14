@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "title": "Course Intro",
+    "speakers": [{
+      "name": "Dzmitry Varabei",
+      "slides": [{
+        "title": "Course Intro",
+        "href": "http://dzmitry-varabei.github.io/front-end-course/lecture-0-course-intro/#/"
+      }, {
+        "title": "Online Education",
+        "href": "http://dzmitry-varabei.github.io/online-education/#/"
+      }, {
+        "title": "JS for Dummies",
+        "href": "http://dzmitry-varabei.github.io/js-for-dummies/#/"
+      }, {
+        "title": "Basic Tools",
+        "href": "http://dzmitry-varabei.github.io/front-end-course/lecture-0-basic-tools/basic_tools.pptx"
+      }, {
+        "title": "Git Story",
+        "href": "http://dzmitry-varabei.github.io/front-end-course/git-story/#/"
+      }]
+    }],
+    "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=1&entry.1387272617"
+  }
+]
