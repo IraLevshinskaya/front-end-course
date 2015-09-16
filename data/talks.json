@@ -21,5 +21,15 @@
       }]
     }],
     "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=1&entry.1387272617"
+  },
+  {
+    "title": "HTML & CSS Basics",
+    "speakers": [{
+      "name": "Oleg Petrenko",
+      "slides": [{
+        "title": "HTML – Day 1",
+        "href": "http://slides.com/olegpetrenko/deck#/"
+      }]
+    }]
   }
 ]
