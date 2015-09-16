@@ -1,3 +1,28 @@
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -200px;
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+footer, .page-wrap:after {
+    height: 200px;
+}
+
 /******************  general  ******************/
 html, body, div, span, h1, h2, h3, h4, p, img, strong, ul, li, form, label, article, nav {
     margin: 0;
@@ -8,16 +33,15 @@ html, body, div, span, h1, h2, h3, h4, p, img, strong, ul, li, form, label, arti
 }
 
 body {
-    margin: 0 auto;
-    background: #444;
-    color: #fff;
-    font-family: "Helvetica Neue", "Arial", sans-serif;
+    background: #fff;
+    color: #444;
+    font-family: 'Lusitana', 'Cambria', 'Georgia', 'Times New Roman', 'Times', serif;
     line-height: 1.46em;
     text-align: center;
 }
 
 a {
-    color: #008cba;
+    color: #E5194C;
     text-decoration: none;
 }
 
@@ -25,9 +49,14 @@ a:hover {
     text-decoration: underline;
 }
 
+p {
+    margin-bottom: 0.5em;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     font-style: normal;
+    font-family: 'Roboto Condensed', sans-serif;
     color: #444;
     margin-top: 0.2em;
     margin-bottom: 0.5em;
@@ -39,23 +68,23 @@ h1 {
 }
 
 h2 {
-    font-size: 1.6875em;
-    color: #444;
-    margin: .5em 0;
-    font-weight: normal;
+    font-size: 1.6875em
 }
 
 h3 {
-    font-size: 1.4em;
-    margin-top: 1em;
-    color: #ba002f;
-    text-transform: uppercase;
+    font-size: 1.375em
 }
 
 h4 {
-    font-size: 1em;
-    padding: .5em 0 0;
-    margin: 0;
+    font-size: 1.125em
+}
+
+h5 {
+    font-size: 1.125em
+}
+
+h6 {
+    font-size: 1em
 }
 
 .left {
@@ -78,72 +107,567 @@ h4 {
     text-align: center !important
 }
 
-/******************  header  ******************/
-.header-wrap {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 2rem;
+.vertical-margin {
+    margin: 1em 0;
+}
+
+section h1 {
+
+    color: #19b6f0;
+    font-size: 300%;
+    font-weight: 100;
+    letter-spacing: -1px;
+    line-height: 1.1em;
+    font-family: 'Roboto Condensed', sans-serif;
     text-align: right;
-    box-sizing: border-box;
+    margin-top: .5em 0;
 }
 
-.header-links {
-    display: inline-block;
-    list-style-type: none;
-    margin-top: .5em;
+/*************  header ************/
+header {
+    min-height: 50px;
+    background: #000;
+    text-align: center;
 }
 
-.header-link-item {
-    display: inline-block;
-    padding: 0 0 0 1em;
-}
-
-.header-link-item a {
-    color: #07c2ff;
-}
-
-.course-title {
-    color: #fff;
-    font-size: 200%;
-    font-weight: normal;
+.header-wrap {
+    position: relative;
     max-width: 960px;
     margin: 0 auto;
-    padding: 1rem 2rem 0;
+    padding-left: 140px;
     box-sizing: border-box;
-    text-transform: uppercase;
-    text-align: left;
 }
 
-/******************  section  ******************/
+.logo {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 96px;
+    height: 50px;
+    background: url(../images/logo_rs_text.svg) no-repeat 0 0;
+    background-size: cover;
+    z-index: 10;
+}
 
+.speaker-photo {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.rs-tag {
+    color: #f0bf19;
+}
+
+/**************    navigation  ******************/
+.nav {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    color: #aaa;
+    display: inline-block;
+    padding: .8em .4em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav li.active a {
+    color: #fff;
+}
+
+.nav li a:hover {
+    color: #f0bf19;
+    text-decoration: none;
+}
+
+.isDesktop .nav li a:before {
+    visibility: hidden;
+    color: #aaa;
+    content: "[ \"";
+}
+
+.isDesktop .nav li a:after {
+    visibility: hidden;
+    color: #aaa;
+    content: "\" ]";
+}
+
+.isDesktop .nav li:hover a:before {
+    visibility: visible;
+}
+
+.isDesktop .nav li:hover a:after {
+    visibility: visible;
+}
+
+.nav-btn {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+
+    background: #000;
+    color: #fff;
+
+    font-family: "Verdana";
+    font-size: 200%;
+    line-height: 46px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.7;
+    z-index: 51;
+}
+
+.nav-btn:hover {
+    text-decoration: none;
+}
+
+.vertical-mode {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 75%;
+    z-index: 50;
+    background: #000;
+    opacity: 0.9;
+    text-align: right;
+}
+
+.vertical-mode .nav {
+    display: block;
+    padding: 70px 0 0 0;
+}
+
+.vertical-mode ul li {
+    display: block;
+    float: none;
+    padding: 0;
+}
+
+.vertical-mode ul li a {
+    display: block;
+    padding: 1em;
+    font-size: 120%;
+}
+
+.vertical-mode ul li a:hover {
+    color: #f0bf19;
+    text-decoration: none;
+}
+
+/**************    banner   ******************/
+.banner {
+    padding: .5em 1em;
+    text-align: right;
+}
+
+.banner h1 {
+    margin-bottom: .3em;
+}
+
+.banner p {
+    color: #444;
+    margin: 0;
+    font-size: 180%;
+}
+
+.location {
+    display: inline-block;
+    padding-left: 1em;
+    line-height: 1.3em;
+    background: url("../images/icon-location.svg") no-repeat 0 center;
+    background-size: .9em;
+    color: #bbb;
+    margin-left: 1em;
+    font-weight: 100;
+}
+
+.fa-external-link-square {
+    margin-left: .3em;
+}
+
+/**************    section  ******************/
 section {
     max-width: 960px;
-    margin: 1em auto;
-    padding: 1em 2rem;
-    text-align: left;
+    padding: .5em 1em;
+    margin: 0 auto;
     box-sizing: border-box;
-    background: #fff;
+    text-align: left;
+    clear: both;
+}
+
+section:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/**************   schedule  ******************/
+.icon-coffee {
+    display: inline-block;
+    background: url("../images/icon-coffee.svg") no-repeat 0 0;
+    background-size: contain;
+    width: 30px;
+    height: 26px;
+}
+
+.schedule-full {
+    list-style-type: none;
+    padding-bottom: 1em;
+}
+
+.schedule-full li {
+    position: relative;
+    padding: .6em 0 .6em 120px;
+}
+
+.schedule-full .break {
+    min-height: inherit;
+    margin: 0 -1em;
+    padding: 1em 1em 1em 136px;
+}
+
+.schedule-full .break h3 {
+    margin-bottom: 0;
+}
+
+.schedule-full .time {
+    color: #19b6f0;
+    font-weight: bold;
+    font-size: 130%;
+}
+
+.schedule-full .speaker-name {
+    color: #aaa;
+}
+
+.schedule-full .speaker-photo {
+    position: absolute;
+    top: 1em;
+    left: 0;
+}
+
+.schedule-lang {
+    color: #777;
+}
+
+.map img {
+    width: 615px;
+    margin: 0 1em .5em 0;
+}
+
+/**************   speaker-list  ******************/
+
+.speaker-list {
+    list-style-type: none;
+
+    -webkit-flex-flow: wrap row;
+    flex-flow: row wrap;
+    list-style-type: none;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.speaker-list li {
+    width: 220px;
+    margin: 0 auto;
+    padding: .5em;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/*.speaker-list li:hover {*/
+/*background-color: #f7f7f7;*/
+/*}*/
+
+.speaker-list li h3 {
+    font-size: 100%;
+    line-height: 1.4em;
+}
+
+.speaker-list li .speaker-photo {
+    width: 100%;
+    height: auto;
+}
+
+.speaker-list li .report {
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 90%;
+    cursor: default;
+}
+
+.socialize {
+    display: inline-block;
+    margin-left: .6em;
+}
+
+.socialize a {
+    display: inline-block;
+    padding: 0 .3em 0 0;
+    font-size: 100%;
+    color: #aaa;
+}
+
+.socialize a:hover {
+    color: #E5194C;
+}
+
+.speaker-list.team li {
+    width: 160px;
+    padding: .4em;
+}
+
+/**************   partner-list ******************/
+.partner-list {
+    list-style-type: none;
+
+    -webkit-flex-flow: wrap row;
+    flex-flow: row wrap;
+    list-style-type: none;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin: 1em 0;
+}
+
+.partner-list li {
+    width: 220px;
+    margin: auto;
+    padding: 1em .5em;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.partner-list li img {
+    width: 200px;
+}
+
+/**************   footer   ******************/
+footer {
+    background: #000;
+    color: #aaa;
+    text-align: center;
+}
+
+.footer-nav-wrap {
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: left;
+}
+
+/**************   contacts-nav   ******************/
+.contacts-nav li {
+    display: inline-block;
+    padding: 1em 1em 1em 0;
+}
+
+.contacts-nav a {
+    color: #ccc;
+    font-size: 230%;
+}
+
+.contacts-nav a:hover {
+    color: #f0bf19;
+    text-decoration: none;
+}
+
+.footer-logo {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: block;
+    background: url("../images/logo_rs2.svg") no-repeat 0 0;
+    background-size: contain;
+    width: 289px;
+    height: 151px;
+    opacity: 0.7;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.copy {
+    margin-top: 2em;
+}
+
+.register-button {
+    display: inline-block;
+    padding: .5em .6em;
+    background: #eee;
+    line-height: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+}
+
+.register-button:hover {
+    text-decoration: none;
+    background-color: #ddd;
+}
+
+/**************   likes  ******************/
+.likes-wrap {
+    list-style-type: none;
+}
+
+.likes-wrap li {
+    padding: .3em 0;
+    float: left;
+}
+
+.fb-like > span {
+    height: 23px !important;
+}
+
+/**************  create-account-form ******************/
+.signup-form {
+    display: inline-block;
+    margin-top: 1em;
+    text-align: left;
+}
+
+.signup-form label {
+    display: block;
+}
+
+.signup-form input {
+    margin-bottom: 12px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    background: #fafafa none;
+    box-sizing: border-box;
+    padding: .6em .4em;
     color: #444;
-    border-radius: 10px;
+    font-size: 1rem;
 }
 
-article {
-    padding: 0 0 2em;
+.signup-form input[type="submit"] {
+    color: #E5194C;
+    display: inline-block;
+    width: auto;
+    padding: .5em .6em;
+    background: #eee;
+    line-height: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.signup-form input[type="submit"]:hover {
+    background-color: #ddd;
 }
 
-/******************  tasks  ******************/
-.tasks {
-    line-height: 1.8em;
-    padding: 0;
-    list-style-position: inside;
+/**************  conference page styles ******************/
+
+.rs-logo {
+    display: inline-block;
+    background: url(../images/logo_rs2.svg) no-repeat;
+    background-size: contain;
+    max-width: 400px;
+    width: 100%;
+    height: 338px;
+    margin: 2em 2em 0 -2em;
+    opacity: 0.8;
+}
+
+.conf-title {
+    margin-top: -2em;
+}
+
+.conf-title h1 {
+    text-align: center;
+    color: #0d96c9;
+    font-size: 400%;
+    font-weight: 100;
+    letter-spacing: -1px;
+    line-height: 1.1em;
+}
+
+.conf-title h2 {
+    text-align: center;
+    margin: 0;
+    color: #444;
+    font-size: 260%;
+    line-height: 1.4em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.slogan {
+    font-size: 500%;
+    color: #bbb;
+    text-align: center;
+}
+
+/*************************************************    sign-up   ******************/
+
+.sign-up {
+    position: relative;
+    min-height: 240px;
+    background: #eee;
+}
+
+.sign-up-field {
+    height: 3em;
+    width: 18em;
+    padding: 0 1em;
+    margin-right: 1em;
+    border: 1px solid #ddd;
+    font-size: 100%;
+}
+
+.sign-up-btn {
+    display: inline-block;
+    padding: 0 1em;
+    height: 3em;
+    background: #0d96c9;
+    color: #fff;
+    text-align: center;
+    line-height: 3em;
+}
+
+.sign-up-btn:hover {
+    text-decoration: none;
+}
+
+.sign-up-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
 }
 
 /******************  talks  ******************/
-
-.talk-title {
-    position: relative;
-    padding-right: 100px;
-}
 
 .talks {
     list-style-type: none;
@@ -153,44 +677,34 @@ article {
     overflow: hidden;
     padding: .5em 1em;
     margin: .2em 0;
-    background: #ededed;
+    background: #f3f3f3;
 }
 
-.talk-item-link {
+.talk-item-title, .talk-item-speaker {
     display: block;
-    margin-right: 140px;
+    margin-right: 145px;
 }
 
+.talk-item-title {
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
 
-.talk-speaker {
+.talk-item-speaker {
+    color: #888;
+    font-size: 90%;
+    line-height: 110%;
+}
+
+.talk-item-links {
     display: block;
     float: right;
-    width: 130px;
+    width: 135px;
     text-align: right;
-    font-size: 80%;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-.links {
-    list-style-type: none;
-    font-size: 80%;
-    text-align: right;
+.talk-item-links i {
+    margin-left: .3em;
 }
-
-.btn-feedback {
-    position: absolute;
-    right: 0;
-    top: .2em;
-    display: inline-block;
-    color: #fff;
-    background: #008cba;
-    font-size: .8rem;
-    font-weight: normal;
-    text-transform: capitalize;
-    padding: 0 1rem;
-}
-
-.btn-feedback:hover {
-    background: #007095;
-    text-decoration: none;
-}
-

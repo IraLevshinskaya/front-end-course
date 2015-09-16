@@ -9,7 +9,7 @@
     }
 
     h3 {
-        font-size: 1em
+        font-size: 1.16em
     }
 
     h4 {
@@ -29,17 +29,241 @@
         margin-bottom: .3em;
     }
 
-    .header-wrap {
-        padding:0 1rem;
+    .logo {
+        display: none;
     }
 
-    section {
-        padding: .5rem 1rem;
-        border-radius: 4px;
+    .nav {
+        display: none;
     }
 
-    .course-title {
-        font-size: 160%;
-        padding:1rem 1rem 0;
+    .nav-btn {
+        display: block;
     }
+
+    .nav li.active a {
+        background: #222;
+    }
+
+    section p {
+        text-align: justify;
+    }
+
+    .banner {
+        text-align: center;
+    }
+
+    section h1 {
+        font-size: 200%;
+    }
+
+    .banner h1 {
+        text-align: center;
+    }
+
+    .banner h2 {
+        font-size: 100%;
+    }
+
+    .banner p {
+        padding-top: 1.3em;
+        text-align: center;
+        font-size: 80%;
+    }
+
+    .schedule-full {
+        padding: 0;
+    }
+
+    .schedule-full .time {
+        margin-bottom: 0;
+    }
+
+    .schedule-full li {
+        padding-left: 0;
+    }
+
+    .schedule-full .break {
+        padding: .6em 1em;
+    }
+
+    .schedule-full .speaker-photo {
+        position: static;
+        float: right;
+        width: 60px;
+        margin: 0 0.3em;
+    }
+
+    iframe {
+        height: auto;
+    }
+
+    .map img {
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+
+    .footer-logo {
+        display: none;
+    }
+
+    .speaker-list li {
+        width: 180px;
+        padding: .5em;
+    }
+
+    .speaker-list {
+        margin: 0 -1em;
+    }
+
+    .sign-up {
+        min-height: 200px;
+    }
+
+    .sign-up-field {
+        width: 10em;
+        vertical-align: top;
+    }
+
+    .sign-up-btn {
+        background:url("../images/email.svg")no-repeat 0 0;
+        background-size:cover;
+        width: 66px;
+        height: 48px;
+        padding: 0;
+    }
+
+    .sign-up-btn span {
+        display: none;
+    }
+    .conf-title h1 {
+         font-size: 300%;
+         margin-bottom: 0;
+     }
+    .conf-title h2 {
+        font-size: 150%;
+        margin-bottom: 0;
+    }
+    .talk-item-links {
+        width: 65px;
+    }
+    .talk-item-title, .talk-item-speaker {
+        margin-right: 75px;
+    }
+}
+
+@media only screen and (max-width: 20em) {
+    .speaker-list li {
+        width: 155px;
+    }
+}
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+
+    p {
+        line-height: 1.3;
+    }
+
+    header, footer, .register-button, .icon-coffee, .location, .socialize {
+        display: none;
+    }
+
+    .map img {
+        float: left;
+    }
+
+    .banner h1 {
+        font-size: 200%;
+    }
+
+    .banner h2 {
+        font-size: 100%;
+    }
+
+    .speaker-list li {
+        width: 160px;
+    }
+
+    .schedule-full li {
+        padding: .3em 0 .3em 120px;
+    }
+
+    .speaker-list li h3 {
+        font-size: 80%;
+        font-weight: 100;
+    }
+
+    .likes-wrap {display: none;}
+
 }
