@@ -50,9 +50,11 @@
         <% talks.reverse().forEach(function (talk, index) { %>
           <section style="padding: 0; margin-bottom: 40px">
             <h2 style="clear: after;">
+              <% if (talk.feedback_url) { %>
               <a class="register-button" href="<%- talk.feedback_url %>" style="float: right; background: #19b6f0; color: white">
                 Feedback
               </a>
+              <% } %>
               <span style="overflow: hidden"><%= talks.length - index %>. <%= talk.title %></span>
             </h2>
             <ul class="talks">
