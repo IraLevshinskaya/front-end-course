@@ -1,15 +1,15 @@
 [{
-	"title": "Course Intro",
-	"slides_href": "http://dzmitry-varabei.github.io/front-end-course/lecture-1-history/#/"
+  "title": "Course Intro",
+  "slides_href": "http://dzmitry-varabei.github.io/front-end-course/lecture-1-history/#/"
 }, {
-	"title": "JavaScript Data Types",
-	"slides_href": "https://docs.google.com/presentation/d/1C1ri0y3tVPgbFSgg2u-ohUzZasT6WlPTB-dViNH1Eyo/embed?slide=id.g657064b7a_2_0"
+  "title": "JavaScript Data Types",
+  "slides_href": "https://docs.google.com/presentation/d/1C1ri0y3tVPgbFSgg2u-ohUzZasT6WlPTB-dViNH1Eyo/embed?slide=id.g657064b7a_2_0"
 }, {
-	"title": "Scope",
-	"slides_href": "http://dzmitry-varabei.github.io/front-end-course/lecture-3-recap-scope/scope.pptx"
+  "title": "Scope",
+  "slides_href": "http://dzmitry-varabei.github.io/front-end-course/lecture-3-recap-scope/scope.pptx"
 }, {
-	"title": "DOM",
-	"slides_href": "http://school.rollingscopes.com/slides/dom/"
+  "title": "DOM",
+  "slides_href": "http://school.rollingscopes.com/slides/dom/"
 }, {
   "title": "JS Functions. Part I",
   "slides_href": "http://dzmitry-varabei.github.io/front-end-course/lecture-5-func/"
@@ -19,4 +19,7 @@
 },{
   "title": "Functions. Part II",
   "slides_href": "http://dzmitry-varabei.github.io/front-end-course/lecture-5-func/index-part2.html#/"
+}, {
+  "title": "Project structure and assets management",
+  "slides_href": "https://docs.google.com/presentation/d/1VBKZ9OzOlJ1jl7Fb-REtP_ijVBS-XZwLrciW2QrO1ig/embed?slide=id.p"
 }]
