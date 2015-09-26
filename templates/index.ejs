@@ -60,7 +60,11 @@
             <% talk.speakers.forEach(function (speaker) { %>
               <% speaker.slides.forEach(function (slides) { %>
                 <li class="talk-item">
+                  <% if (slides.href) { %>
                   <a href="<%- slides.href %>" class="talk-item-title"><%= slides.title %></a>
+                  <% } else { %>
+                  <p class="talk-item-title" style="margin-bottom: 0"><%= slides.title %></a>
+                  <% } %>
                   <span class="talk-item-speaker"><%= speaker.name %></span>
                 </li>
               <% }) %>
