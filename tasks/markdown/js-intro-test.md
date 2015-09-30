@@ -134,4 +134,29 @@ var lada = new Car("black");
 Car.prototype.currentGear = 1;
 console.log(++lada.currentGear);
 console.log(Car.prototype.currentGear);
+
+//###
+var o = {
+        x: 8,
+
+        valueOf: function(){
+            return this.x + 2;
+        },
+
+        toString: function(){
+            return this.x.toString();
+        }
+    };
+    
+console.log(o < "9");
+
+//###
+console.log( 100['toString']['length'] );
+
+//###
+
+function f(){ return f; }
+var wildguess = new f() instanceof f;
+console.log( wildguess );
+
 ```
