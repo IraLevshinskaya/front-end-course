@@ -117,5 +117,20 @@
     }]
     ,
     "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=8&entry.1387272617"
+  },
+  {
+    "title": "Examples of real projects. CSS Quickdraw",
+    "speakers": [{
+      "name": "Nastassia Tayanouskaya",
+      "slides": [{
+        "title": "Examples of real projects"
+      }],
+    }, {
+      "name": "CSS Quickdraw",
+      "slides": [{
+        "title": "CSS Quickdraw"
+      }]
+    }],
+    "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=9&entry.1387272617"
   }
 ]
