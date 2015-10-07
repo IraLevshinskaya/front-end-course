@@ -22,4 +22,10 @@
 }, {
   "title": "Project structure and assets management",
   "slides_href": "https://docs.google.com/presentation/d/1VBKZ9OzOlJ1jl7Fb-REtP_ijVBS-XZwLrciW2QrO1ig/embed?slide=id.p"
+}, {
+  "title": "Objects and Inheritance. Part I",
+  "slides_href": "http://dzmitry-varabei.github.io/front-end-course/lecture-5-func/index-objects.html#/"
+}, {
+  "title": "Objects and Inheritance. Part II",
+  "slides_href": "https://github.com/rolling-scopes/front-end-course/wiki/Lecture:-Inheritance-in-JavaScript"
 }]
