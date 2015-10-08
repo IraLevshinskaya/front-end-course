@@ -28,4 +28,10 @@
 }, {
   "title": "Objects and Inheritance. Part II",
   "slides_href": "https://github.com/rolling-scopes/front-end-course/wiki/Lecture:-Inheritance-in-JavaScript"
+}, {
+  "title": "Strict mode",
+  "slides_href": "http://school.rollingscopes.com/slides/strict-mode"
+}, {
+  "title": "Object.*",
+  "slides_href": "http://school.rollingscopes.com/slides/object-methods"
 }]
