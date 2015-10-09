@@ -5,7 +5,7 @@ module.exports = {
 		},
 		talks: require('../data/talks.json')
 	},
-	'js-webinar': {
+	'webinar': {
 		page: {
 			title: 'JS Webinar'
 		},
