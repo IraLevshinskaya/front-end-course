@@ -132,5 +132,15 @@
       }]
     }],
     "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=9&entry.1387272617"
+  },
+  {
+    "title": "RWD & UX. (Vitaly Friedman workshop recap)",
+    "speakers": [{
+      "name": "Andrei Vouchanka",
+      "slides": [{
+        "title": "RWD & UX"
+      }]
+    }],
+    "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=10&entry.1387272617"
   }
 ]
