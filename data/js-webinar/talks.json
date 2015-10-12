@@ -9,13 +9,13 @@
   "slides_href": "http://dzmitry-varabei.github.io/front-end-course/lecture-3-recap-scope/scope.pptx"
 }, {
   "title": "DOM",
-  "slides_href": "http://school.rollingscopes.com/slides/dom/"
+  "slides_href": "http://rolling-scopes.github.io/slides/school/dom/"
 }, {
   "title": "JS Functions. Part I",
   "slides_href": "http://dzmitry-varabei.github.io/front-end-course/lecture-5-func/"
 }, {
   "title": "DOM Events",
-  "slides_href": "http://school.rollingscopes.com/slides/dom-events/#/"
+  "slides_href": "http://rolling-scopes.github.io/slides/school/dom-events/#/"
 },{
   "title": "Functions. Part II",
   "slides_href": "http://dzmitry-varabei.github.io/front-end-course/lecture-5-func/index-part2.html#/"
@@ -30,8 +30,8 @@
   "slides_href": "https://github.com/rolling-scopes/front-end-course/wiki/Lecture:-Inheritance-in-JavaScript"
 }, {
   "title": "Strict mode",
-  "slides_href": "http://school.rollingscopes.com/slides/strict-mode"
+  "slides_href": "http://rolling-scopes.github.io/slides/school/strict-mode"
 }, {
   "title": "Object.*",
-  "slides_href": "http://school.rollingscopes.com/slides/object-methods"
+  "slides_href": "http://rolling-scopes.github.io/slides/school/object-methods"
 }]
