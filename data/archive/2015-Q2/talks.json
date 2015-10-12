@@ -233,10 +233,10 @@
     "name": "Dzmitry Herasimov",
     "slides": [{
       "title": "Obect.*",
-      "href": "./slides/js-object-talk/"
+      "href": "http://rolling-scopes.github.io/slides/school/js-object-talk/"
     }, {
       "title": "Strict Mode",
-      "href": "./slides/js-strict-mode-talk/"
+      "href": "http://rolling-scopes.github.io/slides/school/js-strict-mode-talk/"
     }]
   }],
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=14&entry.1387272617"
@@ -269,7 +269,7 @@
     "name": "Andrei Volchenko",
     "slides": [{
       "title": "DOM",
-      "href": "./slides/dom"
+      "href": "http://rolling-scopes.github.io/slides/school/dom"
     }, {
       "title": "Part II",
       "href": "https://github.com/rolling-scopes-school/dom-workshop"
@@ -289,7 +289,7 @@
     "name": "Andrei Volchenko",
     "slides": [{
       "title": "DOM Events",
-      "href": "./slides/dom-events"
+      "href": "http://rolling-scopes.github.io/slides/school/dom-events"
     }, {
       "title": "Part II",
       "href": "https://github.com/rolling-scopes-school/dom-events.git"
@@ -306,7 +306,7 @@
     "name": "Andrei Yanovich",
     "slides": [{
       "title": "JQuery",
-      "href": "./slides/jquery-talk"
+      "href": "http://rolling-scopes.github.io/slides/school/jquery-talk"
     }]
   }],
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=19&entry.1387272617"
@@ -336,7 +336,7 @@
     "name": "Dzmitry Varabei",
     "slides": [{
       "title": "How browser works. Paint and Compositing",
-      "href": "./slides/chrome-paint-and-compositing/ChromeInternalsPaint.pptx"
+      "href": "http://rolling-scopes.github.io/slides/school/chrome-paint-and-compositing/ChromeInternalsPaint.pptx"
     }, {
       "title": "Network Basics",
       "href": "http://dzmitry-varabei.github.io/front-end-course/network.pptx"
@@ -369,10 +369,10 @@
     "name": "Andrei Yanovich",
     "slides": [{
       "title": "Ajax",
-      "href": "./slides/ajax-talk"
+      "href": "http://rolling-scopes.github.io/slides/school/ajax-talk"
     }, {
       "title": "Promises",
-      "href": "./slides/jquery-deferred-promise-talk"
+      "href": "http://rolling-scopes.github.io/slides/school/jquery-deferred-promise-talk"
     }]
   }],
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=24&entry.1387272617"
@@ -382,7 +382,7 @@
     "name": "Alexander Gerasimov",
     "slides": [{
       "title": "WebSocket Challenge",
-      "href": "./slides/ws/WebSockets.pdf"
+      "href": "http://rolling-scopes.github.io/slides/school/ws/WebSockets.pdf"
     }]
   }],
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=25&entry.1387272617"
@@ -402,7 +402,7 @@
     "name": "Dzmitry Hersimov",
     "slides": [{
       "title": "Testing JavaScript Applications",
-      "href": "./slides/jstesting-talk"
+      "href": "http://rolling-scopes.github.io/slides/school/jstesting-talk"
     }]
   }],
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=27&entry.1387272617"
@@ -412,7 +412,7 @@
     "name": "Dzmitry Hersimov",
     "slides": [{
       "title": "Testing JavaScript Applications",
-      "href": "./slides/jstesting-talk"
+      "href": "http://rolling-scopes.github.io/slides/school/jstesting-talk"
     }]
   }],
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=28&entry.1387272617"
@@ -438,7 +438,7 @@
     "name": "Dzmitry Hersimov",
     "slides": [{
       "title": "Testing JavaScript Applications",
-      "href": "./slides/jstesting-talk"
+      "href": "http://rolling-scopes.github.io/slides/school/jstesting-talk"
     }]
   }],
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=30&entry.1387272617"

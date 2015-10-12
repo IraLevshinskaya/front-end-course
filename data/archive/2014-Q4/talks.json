@@ -10,7 +10,7 @@
     "name": "Stanislau Zubovich",
     "slides": [{
       "title": "HTML & CSS",
-      "href": "./slides/HTMLCSS?full#1"
+      "href": "http://rolling-scopes.github.io/slides/school/HTMLCSS?full#1"
     }]
   }],
   "links": [{
@@ -24,7 +24,7 @@
     "name": "Stanislau Zubovich",
     "slides": [{
       "title": "HTML & CSS. Part II",
-      "href": "./slides/HTMLCSS/index.html?full#77"
+      "href": "http://rolling-scopes.github.io/slides/school/HTMLCSS/index.html?full#77"
     }]
   }, {
     "name": "Andrei Vouchanka",
@@ -53,7 +53,7 @@
     "name": "Stanislau Zubovich",
     "slides": [{
       "title": "Layout",
-      "href": "./slides/Layout"
+      "href": "http://rolling-scopes.github.io/slides/school/Layout"
     }]
   }, {
     "name": "Dzmitry Varabei",
@@ -76,7 +76,7 @@
     "name": "Stanislau Zubovich",
     "slides": [{
       "title": "Layout modules. Flexbox",
-      "href": "./slides/Layout%20modules.%20Flexbox/index.html?full#Cover"
+      "href": "http://rolling-scopes.github.io/slides/school/Layout%20modules.%20Flexbox/index.html?full#Cover"
     }]
   }, {
     "name": "Dzmitry Varabei",
@@ -195,10 +195,10 @@
         "name": "Dzmitry Herasimov",
         "slides": [{
             "title": "Strict mode*",
-            "href": "./slides/js-strict-mode-talk/index.html"
+            "href": "http://rolling-scopes.github.io/slides/school/js-strict-mode-talk/index.html"
         },{
             "title": "Object.*",
-            "href": "./slides/js-object-talk/index.html"
+            "href": "http://rolling-scopes.github.io/slides/school/js-object-talk/index.html"
         }]
     }],
 
@@ -251,7 +251,7 @@
     "name": "Andrei Vouchanka",
     "slides": [{
       "title": "DOM",
-      "href": "./slides/dom"
+      "href": "http://rolling-scopes.github.io/slides/school/dom"
     }]
   }],
   "links": [{
@@ -265,7 +265,7 @@
     "name": "Andrei Vouchanka",
     "slides": [{
       "title": "DOM Events",
-      "href": "./slides/dom-events"
+      "href": "http://rolling-scopes.github.io/slides/school/dom-events"
     }]
   }],
   "links": [{
@@ -279,7 +279,7 @@
     "name": "Andrei Yanovich",
     "slides": [{
       "title": "JQuery",
-      "href": "./slides/js-slides/js_jquery/js_jquery.html"
+      "href": "http://rolling-scopes.github.io/slides/school/js-slides/js_jquery/js_jquery.html"
     }]
   }],
   "feedback_url": "https://docs.google.com/forms/d/14U7xizYq8wkkKkpUv4tHpTvGOUqIsNsNkXIlIPG52J8/viewform?entry.2031034787=16&entry.688984352&entry.783979980"
@@ -309,13 +309,13 @@
     "name": "Aliaksandr Karlovich",
     "slides": [{
       "title": "Front-end project assets management",
-      "href": "./slides/dependencies-talk/"
+      "href": "http://rolling-scopes.github.io/slides/school/dependencies-talk/"
     }]
   }, {
     "name": "Andrei Vouchanka",
     "slides": [{
       "title": "Grunt",
-      "href": "./slides/grunt-talk"
+      "href": "http://rolling-scopes.github.io/slides/school/grunt-talk"
     }]
   }],
   "links": [{
@@ -348,7 +348,7 @@
         "name": "Aliaksandr Karlovich",
         "slides": [{
             "title": "Network. HTTP",
-            "href": "./slides/HTTP"
+            "href": "http://rolling-scopes.github.io/slides/school/HTTP"
         }]}],
     "links": [{
         "title": "High Performance Browser Networking by Ilya Grigorik",
@@ -361,10 +361,10 @@
     "name": "Andrei Yanovich",
     "slides": [{
       "title": "Ajax",
-      "href": "./slides/ajax-talk"
+      "href": "http://rolling-scopes.github.io/slides/school/ajax-talk"
     }, {
       "title": "Promise Pattern",
-      "href": "./slides/jquery-deferred-promise-talk"
+      "href": "http://rolling-scopes.github.io/slides/school/jquery-deferred-promise-talk"
     }]
   }],
   "feedback_url": "https://docs.google.com/forms/d/14U7xizYq8wkkKkpUv4tHpTvGOUqIsNsNkXIlIPG52J8/viewform?entry.2031034787=21&entry.688984352&entry.783979980"
@@ -374,7 +374,7 @@
     "name": "Alexander Gerasimov",
     "slides": [{
       "title": "WebSocket Challenge",
-      "href": "./slides/ws/WebSockets.pptx"
+      "href": "http://rolling-scopes.github.io/slides/school/ws/WebSockets.pptx"
     }]
   }],
   "feedback_url": "https://docs.google.com/forms/d/14U7xizYq8wkkKkpUv4tHpTvGOUqIsNsNkXIlIPG52J8/viewform?entry.2031034787=22&entry.688984352&entry.783979980"
@@ -387,7 +387,7 @@
       "href": "http://dzmitry-varabei.github.io/front-end-course/network.pptx"
     }, {
       "title": "Performance, Paint and Compositing, How browser works",
-      "href": "./slides/chrome-paint-and-compositing/ChromeInternalsPaint.pptx"
+      "href": "http://rolling-scopes.github.io/slides/school/chrome-paint-and-compositing/ChromeInternalsPaint.pptx"
     }]
   }],
   "links": [{
@@ -401,7 +401,7 @@
     "name": "Aliaksandr Karlovich",
     "slides": [{
       "title": "Stylish stylus",
-      "href": "./slides/stylish-stylus/slides"
+      "href": "http://rolling-scopes.github.io/slides/school/stylish-stylus/slides"
     }]
   }, {
     "name": "Andrei Vouchanka",
@@ -411,10 +411,10 @@
   }],
   "links": [{
     "title": "Optional Stylus Task",
-    "href": "./slides/stylish-stylus/task.txt"
+    "href": "http://rolling-scopes.github.io/slides/school/stylish-stylus/task.txt"
   }, {
     "title": "Stylus Demo Project",
-    "href": "./tasks/stylish-stylus.zip" 
+    "href": "./tasks/stylish-stylus.zip"
   }, {
     "title": "Stylus documentation",
     "href": "http://learnboost.github.io/stylus/docs/js.html"
@@ -429,7 +429,7 @@
         "name": "Dmitry Gerasimov & Alexander Gerasimov",
         "slides": [{
             "title": "Testing JavaScript Applications",
-            "href": "./slides/jstesting-talk/"
+            "href": "http://rolling-scopes.github.io/slides/school/jstesting-talk/"
         }]
     }],
     "links": [],
@@ -440,7 +440,7 @@
         "name": "Dmitry Gerasimov & Alexander Gerasimov",
         "slides": [{
             "title": "Testing JavaScript Applications",
-            "href": "./slides/jstesting-talk/"
+            "href": "http://rolling-scopes.github.io/slides/school/jstesting-talk/"
         }]
     }],
     "links": [],
@@ -451,7 +451,7 @@
         "name": "Kanstantsin Yatskevich & Andrei Yemialyanchik",
         "slides": [{
             "title": "Angular",
-            "href": "./slides/angular_baranoshnik.zip"
+            "href": "http://rolling-scopes.github.io/slides/school/angular_baranoshnik.zip"
         }]
     }],
     "links": [{
