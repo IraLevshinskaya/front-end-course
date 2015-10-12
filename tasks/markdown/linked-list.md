@@ -12,7 +12,7 @@ Implement data structure "doubly linked list". It should be done as a stand-alon
 * insertAt (inserts item by index; new item should be placed at the specified index)
 * reverse (rearranges the list's items back-to-front)
 * each (param: function; applies specified function to each item of the list)
-* indexOF(param: item; return index of the specified item (first entry))
+* indexOf(param: item; return index of the specified item (first entry))
 
 Some of the list's methods should be chainable.
 ```javascript
