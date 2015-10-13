@@ -142,5 +142,16 @@
       }]
     }],
     "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=10&entry.1387272617"
+  },
+  {
+    "title": "CSS Q&A Session. Introduction to Browser Internals",
+    "speakers": [{
+      "name": "Pavel Guzikov",
+      "slides": [{
+        "title": "UXD Basics",
+        "href": "http://rolling-scopes.github.io/slides/school/uxd_basics_short.pptx"
+      }]
+    }],
+    "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=11&entry.1387272617"
   }
 ]
