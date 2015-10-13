@@ -34,4 +34,7 @@
 }, {
   "title": "Object.*",
   "slides_href": "http://rolling-scopes.github.io/slides/school/object-methods"
+}, {
+  "title": "Event Loop",
+  "slides_href": "http://rolling-scopes.github.io/slides/school/event-loop"
 }]
