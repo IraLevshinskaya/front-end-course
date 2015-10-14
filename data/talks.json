@@ -153,5 +153,22 @@
       }]
     }],
     "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=11&entry.1387272617"
+  },
+  {
+    "title": "JavaScript Overview",
+    "speakers": [{
+      "name": "Dzmitry Varabei",
+      "slides": [{
+        "title": "Past, Present and Future of JavaScript",
+        "href": "http://dzmitry-varabei.github.io/front-end-course/lecture-1-history/#/"
+      }]
+    }, {
+      "name": "Andrei Volchenko",
+      "slides": [{
+        "title": "JS Data Types",
+        "href": "https://docs.google.com/presentation/d/1C1ri0y3tVPgbFSgg2u-ohUzZasT6WlPTB-dViNH1Eyo/embed?slide=id.g657064b7a_2_0"
+      }]
+    }],
+    "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=12&entry.1387272617"
   }
 ]
