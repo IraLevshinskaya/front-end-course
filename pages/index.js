@@ -10,11 +10,5 @@ module.exports = {
 			title: 'JS Webinar'
 		},
 		talks: require('../data/js-webinar/talks.json')
-	},
-	archive: {
-		page: {
-			title: 'Archive'
-		},
-		talks: require('../data/archive/2015-Q2/talks.json')
 	}
 }
