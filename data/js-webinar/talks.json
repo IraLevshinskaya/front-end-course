@@ -37,4 +37,7 @@
 }, {
   "title": "Event Loop",
   "slides_href": "http://rolling-scopes.github.io/slides/school/event-loop"
+}, {
+  "title": "Basics of HTTP",
+  "slides_href": "http://rolling-scopes.github.io/slides/school/HTTP/"
 }]
