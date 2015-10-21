@@ -1,7 +1,4 @@
 ### Custom JQuery
-Deadline         | Folder Name
------------------|----------------
-22.04.2015 23:59 | custom-jquery
 
 Your task is to implement minimal version of JQuery using DOM API
 Methods to implement:
