@@ -3,8 +3,8 @@ Deadline         | Folder Name
 -----------------|----------------
 22.04.2015 23:59 | custom-jquery
 
-Реализовать урезаную по функционалу, но идентичную по синтаксису версию JQuery
-Методы которые нужно реализовывать:
+Your task is to implement minimal version of JQuery using DOM API
+Methods to implement:
 * [addClass](http://api.jquery.com/addClass/)
 * [append](http://api.jquery.com/append/)
 * [html](https://api.jquery.com/html/)
@@ -16,10 +16,10 @@ Deadline         | Folder Name
 * [one](http://api.jquery.com/one/)
 * [each](https://api.jquery.com/each/)
 
-### Доп. условия:
+### Additional requirements:
 * chaining
 
-### Пример
+### Example usage
 ```javascript
 
 $('.my-class')
