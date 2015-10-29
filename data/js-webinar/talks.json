@@ -41,6 +41,9 @@
   "title": "Basics of HTTP",
   "slides_href": "http://rolling-scopes.github.io/slides/school/HTTP/"
 }, {
+  "title": "HTTP2",
+  "slides_href": "http://rolling-scopes.github.io/slides/school/PEIM/EPAM-HTTP-2/"
+}, {
   "title": "Ajax",
   "slides_href": "http://andrei-yanovich.github.io/ajax-talk/"
 }, {
