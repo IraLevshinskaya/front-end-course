@@ -170,5 +170,80 @@
       }]
     }],
     "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=12&entry.1387272617"
+  },
+  {
+    "title": "Scope",
+    "speakers": [{
+      "name": "Dzmitry Varabei",
+      "slides": [{
+        "title": "Scope",
+        "href": "http://dzmitry-varabei.github.io/front-end-course/lecture-3-recap-scope/scope.pptx"
+      }]
+    }],
+    "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=13&entry.1387272617"
+  },
+  {
+    "title": "Functions is JavaScript",
+    "speakers": [{
+      "name": "Dzmitry Varabei",
+      "slides": [{
+        "title": "Functions",
+        "href": "http://dzmitry-varabei.github.io/front-end-course/lecture-5-func/#/"
+      }]
+    }],
+    "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=14&entry.1387272617"
+  },
+  {
+    "title": "Inheritance in JavaScript",
+    "speakers": [{
+      "name": "Dzmitry Varabei",
+      "slides": [{
+        "title": "Part I",
+        "href": "http://dzmitry-varabei.github.io/front-end-course/lecture-5-func/index-objects.html#/"
+      }, {
+        "title": "Part II",
+        "href": "http://dzmitry-varabei.github.io/front-end-course/inheritance-in-javascript/Inheritance.pptx"
+      }, {
+        "title": "Parasitic Inheritance",
+        "href": "http://dzmitry-varabei.github.io/front-end-course/inheritance-in-javascript/ParasiticInheritance.htm"
+      }]
+    }],
+    "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=15&entry.1387272617"
+  },
+  {
+    "title": "Object.*, Strict mode",
+    "speakers": [{
+      "name": "Dzmitry Gerasimov",
+      "slides": [{
+        "title": "Object.*",
+        "href": "http://rolling-scopes.github.io/slides/school/object-methods/#/"
+      }, {
+        "title": "Strict mode",
+        "href": "http://rolling-scopes.github.io/slides/school/js-strict-mode-talk/#/"
+      }]
+    }],
+    "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=16&entry.1387272617"
+  },
+  {
+    "title": "Array.prototype.*",
+    "speakers": [{
+      "name": "Alexander Gerasimov",
+      "slides": [{
+        "title": "Array methods",
+        "href": "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype"
+      }]
+    }],
+    "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=17&entry.1387272617"
+  },
+  {
+    "title": "DOM",
+    "speakers": [{
+      "name": "Andrei Volchenko",
+      "slides": [{
+        "title": "DOM",
+        "href": "http://rolling-scopes.github.io/slides/school/dom/#/"
+      }]
+    }],
+    "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=18&entry.1387272617"
   }
 ]
