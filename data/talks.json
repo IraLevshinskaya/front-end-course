@@ -251,7 +251,7 @@
     "speakers": [{
       "name": "Andrei Volchenko",
       "slides": [{
-        "title": "DOM",
+        "title": "DOM Events",
         "href": "http://rolling-scopes.github.io/slides/school/dom-events/#/"
       }]
     }],
