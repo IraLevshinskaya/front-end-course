@@ -245,5 +245,16 @@
       }]
     }],
     "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=18&entry.1387272617"
+  },
+  {
+    "title": "DOM Events",
+    "speakers": [{
+      "name": "Andrei Volchenko",
+      "slides": [{
+        "title": "DOM",
+        "href": "http://rolling-scopes.github.io/slides/school/dom-events/#/"
+      }]
+    }],
+    "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=19&entry.1387272617"
   }
 ]
