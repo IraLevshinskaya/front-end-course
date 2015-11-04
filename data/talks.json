@@ -256,5 +256,22 @@
       }]
     }],
     "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=19&entry.1387272617"
+  },
+  {
+    "title": "Event Loop. Animations",
+    "speakers": [{
+      "name": "Andrei Volchenko",
+      "slides": [{
+        "title": "Event Loop",
+        "href": "http://rolling-scopes.github.io/slides/school/event-loop/"
+      }]
+    }, {
+      "name": "Kiryl Dziamura",
+      "slides": [{
+        "title": "Animations",
+        "href": "http://wontem.github.io/slides/animations/"
+      }]
+    }],
+    "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=20&entry.1387272617"
   }
 ]
