@@ -38,6 +38,9 @@
   "title": "Event Loop",
   "slides_href": "http://rolling-scopes.github.io/slides/school/event-loop"
 }, {
+  "title": "Network Profiling",
+  "slides_href": "http://dzmitry-varabei.github.io/front-end-course/network.pptx"
+}, {
   "title": "Basics of HTTP",
   "slides_href": "http://rolling-scopes.github.io/slides/school/HTTP/"
 }, {
