@@ -52,4 +52,7 @@
 }, {
   "title": "Promises",
   "slides_href": "http://andrei-yanovich.github.io/promise-talk"
+},  {
+  "title": "WebSockets",
+  "slides_href": "http://rolling-scopes.github.io/slides/school/ws/WebSockets.pptx"
 }]
