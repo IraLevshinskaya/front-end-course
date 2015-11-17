@@ -55,4 +55,10 @@
 },  {
   "title": "WebSockets",
   "slides_href": "http://rolling-scopes.github.io/slides/school/ws/WebSockets.pptx"
+}, {
+  "title": "How Browser Works",
+  "slides_herf": "http://rolling-scopes.github.io/slides/school/chrome-paint-and-compositing/ChromeInternalsPaint.pptx"
+}, {
+  "title": "Testing JavaScript Applications",
+  "slides_href": ""
 }]
