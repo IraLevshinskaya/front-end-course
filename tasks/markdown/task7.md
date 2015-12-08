@@ -32,6 +32,10 @@ iterator.forward() // --> [1, 2, 3]
 iterator.jumpTo(5) // --> undefined
 iterator.current() // --> [4, 5, 6]
 iterator.backward()// --> [3, 4, 5]
+
+iterator.jumpTo(8)
+iterator.current() // --> [8, 9, 0]
+iterator.forward() // --> [9, 0, 1]
 ```
 
 #### Code readability and maintainability are !important.
