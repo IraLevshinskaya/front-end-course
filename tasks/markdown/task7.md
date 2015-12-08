@@ -1,3 +1,7 @@
+| Deadline | Folder name |
+|----------|-------------|
+| 28.12.2015 10:00| iterator |
+
 ### Implement simple Iterator pattern.
 
 **Requirements:**
