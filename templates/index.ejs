@@ -43,54 +43,54 @@
       </section>
       <section>
         <h2>Программа курса:</h2>
-        <p><a href="https://github.com/rolling-scopes/front-end-course/wiki/Course-Curriculum-2.0">тут</a></p>
+        <p><a href="https://github.com/rolling-scopes/front-end-course/wiki/Course-Curriculum-2.0">https://github.com/.../wiki/Course-Curriculum-2.0</a></p>
       </section>
       <section>
         <h2>Расписание занятий:</h2>
-        <p><a href="https://docs.google.com/spreadsheets/d/1qWF2QXmnUOoTioqfJ3znKLEr0KHsJo4QIs1olR392js/edit#gid=0">тут</a></p>
+        <p><a href="https://docs.google.com/spreadsheets/d/1qWF2QXmnUOoTioqfJ3znKLEr0KHsJo4QIs1olR392js/edit#gid=0">может обновляться, следите в чате</a></p>
       </section>
       <section>
         <h2>Отзывы/пожелания/вопросы оставлять тут:</h2>
         <p><a href="https://docs.google.com/forms/d/1F4NeS0oBq-CY805aqiPVp6CIrl4_nIYJ7Z_vUcMOFrQ/viewform">Feedback</a></p>
       </section>
-      <section>
-        <h2>Talks</h2>
-        <% talks.reverse().forEach(function (talk, index) { %>
-          <section style="padding: 0; margin-bottom: 40px">
-            <h2 style="clear: after;">
-              <% if (talk.feedback_url) { %>
-              <a class="register-button" href="<%- talk.feedback_url %>" style="float: right; background: #19b6f0; color: white">
-                Feedback
-              </a>
-              <% } %>
-              <span style="overflow: hidden"><%= talks.length - index %>. <%= talk.title %></span>
-            </h2>
-            <ul class="talks">
-            <% talk.speakers.forEach(function (speaker) { %>
-              <% speaker.slides.forEach(function (slides) { %>
-                <li class="talk-item">
-                  <% if (slides.href) { %>
-                  <a href="<%- slides.href %>" class="talk-item-title"><%= slides.title %></a>
-                  <% } else { %>
-                  <p class="talk-item-title" style="margin-bottom: 0"><%= slides.title %></a>
-                  <% } %>
-                  <span class="talk-item-speaker"><%= speaker.name %></span>
-                </li>
-              <% }) %>
-            <% }) %>
-            </ul>
-          </section>
-          <section style="margin-top: -40px;">
-          <% if (talk.links) { %>
-            <% talk.links.forEach(function (link) { %>
-              <p style="text-align: right">
-                <a href="<%- link.href %>"><%= link.title %></a>
-              </p>
-            <% }) %>
-          <% } %>
-          </section>
-        <% }) %>
-      </section>
+      <!--<section>-->
+        <!--<h2>Talks</h2>-->
+        <!--<% talks.reverse().forEach(function (talk, index) { %>-->
+          <!--<section style="padding: 0; margin-bottom: 40px">-->
+            <!--<h2 style="clear: after;">-->
+              <!--<% if (talk.feedback_url) { %>-->
+              <!--<a class="register-button" href="<%- talk.feedback_url %>" style="float: right; background: #19b6f0; color: white">-->
+                <!--Feedback-->
+              <!--</a>-->
+              <!--<% } %>-->
+              <!--<span style="overflow: hidden"><%= talks.length - index %>. <%= talk.title %></span>-->
+            <!--</h2>-->
+            <!--<ul class="talks">-->
+            <!--<% talk.speakers.forEach(function (speaker) { %>-->
+              <!--<% speaker.slides.forEach(function (slides) { %>-->
+                <!--<li class="talk-item">-->
+                  <!--<% if (slides.href) { %>-->
+                  <!--<a href="<%- slides.href %>" class="talk-item-title"><%= slides.title %></a>-->
+                  <!--<% } else { %>-->
+                  <!--<p class="talk-item-title" style="margin-bottom: 0"><%= slides.title %></a>-->
+                  <!--<% } %>-->
+                  <!--<span class="talk-item-speaker"><%= speaker.name %></span>-->
+                <!--</li>-->
+              <!--<% }) %>-->
+            <!--<% }) %>-->
+            <!--</ul>-->
+          <!--</section>-->
+          <!--<section style="margin-top: -40px;">-->
+          <!--<% if (talk.links) { %>-->
+            <!--<% talk.links.forEach(function (link) { %>-->
+              <!--<p style="text-align: right">-->
+                <!--<a href="<%- link.href %>"><%= link.title %></a>-->
+              <!--</p>-->
+            <!--<% }) %>-->
+          <!--<% } %>-->
+          <!--</section>-->
+        <!--<% }) %>-->
+      <!--</section>-->
     </div>
   <script>
   var el = document.getElementById("nav");
