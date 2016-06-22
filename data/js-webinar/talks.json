@@ -61,4 +61,7 @@
 }, {
   "title": "Testing JavaScript Applications",
   "slides_href": "http://rolling-scopes.github.io/slides/school/js-testing-talk-krakow/#/"
+}, {
+  "title": "Modules in JS. Nodejs intro",
+  "slides_href": "http://rolling-scopes.github.io/slides/npm/"
 }]
