@@ -16,7 +16,7 @@
     <!--[if lt IE 10]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <div class="page-wrap">
+    <div>
       <header>
         <div class="header-wrap">
           <a class="logo" href="https://rollingscopes.com/"> </a>
@@ -32,70 +32,48 @@
         </div>
       </header>
       <section class="banner">
-        <h1>Front-end Course</h1>
+        <h1>The Rolling Scopes School</h1>
       </section>
       <section>
-        <h2>Что такое Rolling School и как сюда попасть</h2>
-        <p>Внимательно читаем - <a href="https://github.com/rolling-scopes/front-end-course/wiki/About-Rolling-School">тут</a></p>
+        <p><strong>ВНИМАНИЕ!</strong></p>
+        <h2> Набор на курсы открыт до 15 сентября</h2>
+          <p>Повторное вводное занятие состоится 7 сентября в 18:00 по адресу: г.Минск, ул.Купревича, д.1, корп.5</p>
       </section>
-      <section>
-        <h2>Gitter rooms:</h2>
-        <p><a href="https://gitter.im/rolling-scopes-school/padawans">Padawans</a> – здесь можно задавать вопросы тем кто хочет попасть на курсы</p>
-<p><a href="https://gitter.im/rolling-scopes-school/questions">Questions</a> – общие вопросы/ответы</p>
-<p><a href="https://gitter.im/rolling-scopes-school/announcements">Announcements</a> – здесь будут важные объявление (перенос/отмена занятия, смена места занятия)</p>
-<a href="https://gitter.im/rolling-scopes-school/general">General</a> – флудильня 😺</p>
 
+      <section>
+        <h2>Материалы вводного занятия</h2>
+        <p><a href="https://github.com/rolling-scopes/front-end-course/wiki/Course-Intro">Презентации + тестовые задания</a></p>
+      </section>
+
+      <section>
+        <h2>Видеозапись первого вводного занятия</h2>
+        <iframe style="max-width: 560px; width: 100%; box-sizing: border-box;" height="315" src="https://www.youtube.com/embed/videoseries?list=PLe--kalBDwjgeyKiqErDuEOuB1dYQi15D" frameborder="0" allowfullscreen></iframe>
+      </section>
+
+      <section>
+
+        <h2>Что такое RS School</h2>
+        <p>Подробности <a href="https://github.com/rolling-scopes/front-end-course/wiki/About-Rolling-School">здесь</a></p>
       </section>
       <section>
-        <h2>Программа курса:</h2>
+        <h2>Следите за новостями в нашем Gitter чате</h2>
+        <p><a href="https://gitter.im/rolling-scopes-school/padawans">Padawans</a> – желающие попасть на курсы могут задать вопросы здесь</p>
+<p><a href="https://gitter.im/rolling-scopes-school/questions">Questions</a> – общие вопросы/ответы</p>
+<p><a href="https://gitter.im/rolling-scopes-school/announcements">Announcements</a> – важные объявления (перенос/отмена занятия, смена места занятия)</p>
+<a href="https://gitter.im/rolling-scopes-school/general">General</a> – флудильня 😺</p>
+      </section>
+      <section>
+        <h2>Программа курса</h2>
         <p><a href="https://github.com/rolling-scopes/front-end-course/wiki/Course-Curriculum-2.0">https://github.com/.../wiki/Course-Curriculum-2.0</a></p>
       </section>
       <section>
-        <h2>Расписание занятий:</h2>
+        <h2>Расписание занятий</h2>
         <p><a href="https://docs.google.com/spreadsheets/d/1qWF2QXmnUOoTioqfJ3znKLEr0KHsJo4QIs1olR392js/edit#gid=0">тут</a> (может обновляться, следите в чате)</p>
       </section>
       <section>
-        <h2>Отзывы/пожелания/вопросы оставлять тут:</h2>
+        <h2>Отзывы/пожелания/вопросы оставлять тут</h2>
         <p><a href="https://docs.google.com/forms/d/1F4NeS0oBq-CY805aqiPVp6CIrl4_nIYJ7Z_vUcMOFrQ/viewform">Feedback</a></p>
       </section>
-      <!--<section>-->
-        <!--<h2>Talks</h2>-->
-        <!--<% talks.reverse().forEach(function (talk, index) { %>-->
-          <!--<section style="padding: 0; margin-bottom: 40px">-->
-            <!--<h2 style="clear: after;">-->
-              <!--<% if (talk.feedback_url) { %>-->
-              <!--<a class="register-button" href="<%- talk.feedback_url %>" style="float: right; background: #19b6f0; color: white">-->
-                <!--Feedback-->
-              <!--</a>-->
-              <!--<% } %>-->
-              <!--<span style="overflow: hidden"><%= talks.length - index %>. <%= talk.title %></span>-->
-            <!--</h2>-->
-            <!--<ul class="talks">-->
-            <!--<% talk.speakers.forEach(function (speaker) { %>-->
-              <!--<% speaker.slides.forEach(function (slides) { %>-->
-                <!--<li class="talk-item">-->
-                  <!--<% if (slides.href) { %>-->
-                  <!--<a href="<%- slides.href %>" class="talk-item-title"><%= slides.title %></a>-->
-                  <!--<% } else { %>-->
-                  <!--<p class="talk-item-title" style="margin-bottom: 0"><%= slides.title %></a>-->
-                  <!--<% } %>-->
-                  <!--<span class="talk-item-speaker"><%= speaker.name %></span>-->
-                <!--</li>-->
-              <!--<% }) %>-->
-            <!--<% }) %>-->
-            <!--</ul>-->
-          <!--</section>-->
-          <!--<section style="margin-top: -40px;">-->
-          <!--<% if (talk.links) { %>-->
-            <!--<% talk.links.forEach(function (link) { %>-->
-              <!--<p style="text-align: right">-->
-                <!--<a href="<%- link.href %>"><%= link.title %></a>-->
-              <!--</p>-->
-            <!--<% }) %>-->
-          <!--<% } %>-->
-          <!--</section>-->
-        <!--<% }) %>-->
-      <!--</section>-->
     </div>
   <script>
   var el = document.getElementById("nav");
