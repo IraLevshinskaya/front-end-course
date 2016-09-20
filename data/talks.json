@@ -28,22 +28,22 @@
   {
     "title": "HTML & CSS Basics",
     "speakers": [{
-      "name": "Oleg Petrenko",
+      "name": "Dasha Sabinina & Sergey Shaliapin",
       "slides": [{
-        "title": "HTML – Day 1",
-        "href": "http://slides.com/olegpetrenko/deck#/"
+        "title": "HTML & CSS Basics",
+        "href": "#"
       }]
     }]
     ,
     "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=2&entry.1387272617"
   },
   {
-    "title": "HTML Day II. Box model",
+    "title": "Position. Floats. Semantics. CSS3",
     "speakers": [{
-      "name": "Oleg Petrenko",
+      "name": "Maria Putyrskaya & Yevgeny Kravchenko",
       "slides": [{
-        "title": "HTML – Day 2",
-        "href": "http://slides.com/olegpetrenko/deck-1#/"
+        "title": "Position. Floats. Semantics. CSS3",
+        "href": "#"
       }]
     }, {
       "name": "Maria Putyrskaya",
@@ -73,11 +73,11 @@
     "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=4&entry.1387272617"
   },
   {
-    "title": "CSS Recipes",
+    "title": "CSS Recipes & Design Patterns",
     "speakers": [{
-      "name": "Nastassia Tayanouskaya",
+      "name": "Nastassia Tayanouskaya & Aleksandr Palubinski",
       "slides": [{
-        "title": "CSS Recipes",
+        "title": "CSS Recipes & Design Patterns",
         "href": "https://github.com/Anastasia-Tayanovskaya/css-recipes"
       }]
     }]
@@ -85,32 +85,20 @@
     "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=5&entry.1387272617"
   },
   {
-    "title": "CSS Workshop",
+    "title": "CSS Workshop: Layout",
     "speakers": [{
-      "name": "Aliaksandr Kuzniatsou & Katsiaryna Utlik",
+      "name": "Sergey Zdobnov & Andrei Bibik",
       "slides": [{
-        "title": "CSS Workshop"
+        "title": "CSS Workshop: Layout"
       }]
     }]
     ,
     "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=6&entry.1387272617"
   },
-  {
-    "title": "RWD",
+    {
+    "title": "Workshop: Photoshop. Graphics. Forms & Widgets",
     "speakers": [{
-      "name": "Stanislau Zubovich",
-      "slides": [{
-        "title": "RWD",
-        "href": "https://github.com/StanislauZubovich/FrontEndLab_Fall_2015"
-      }]
-    }]
-    ,
-    "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=7&entry.1387272617"
-  },
-  {
-    "title": "CSS Workshop. HTML Forms. Images",
-    "speakers": [{
-      "name": "Maria Putyrskaya",
+      "name": "Maria Putyrskaya & Stanislau Zubovich",
       "slides": [{
         "title": "CSS Workshop. HTML Forms. Images"
       }]
@@ -119,16 +107,44 @@
     "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=8&entry.1387272617"
   },
   {
-    "title": "Examples of real projects. CSS Quickdraw",
+    "title": "Responsive. Flexbox",
     "speakers": [{
-      "name": "Nastassia Tayanouskaya",
+      "name": "Stanislau Zubovich & Yevgeny Kravchenko",
       "slides": [{
-        "title": "Examples of real projects"
+        "title": "Responsive. Flexbox",
+        "href": "https://github.com/StanislauZubovich/FrontEndLab_Fall_2015"
       }]
-    }, {
-      "name": "Andrei Volchenko",
+    }]
+    ,
+    "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=7&entry.1387272617"
+  },
+
+  {
+    "title": "Web Accessibility",
+    "speakers": [{
+      "name": "Aliaksandra Reut & Stanislau Zubovich",
       "slides": [{
-        "title": "CSS Quickdraw"
+        "title": "Web Accessibility"
+      }]
+    }],
+    "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=9&entry.1387272617"
+  },
+  {
+    "title": "Preprocessors. SASS",
+    "speakers": [{
+      "name": "Sergey Zdobnov & Andrei Bibik",
+      "slides": [{
+        "title": "Preprocessors. SASS"
+      }]
+    }],
+    "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=9&entry.1387272617"
+  },
+    {
+    "title": "CSS Frameworks",
+    "speakers": [{
+      "name": "Alena Vysotskaya",
+      "slides": [{
+        "title": "CSS Frameworks"
       }]
     }],
     "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=9&entry.1387272617"
@@ -144,12 +160,12 @@
     "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=10&entry.1387272617"
   },
   {
-    "title": "CSS Q&A Session. Introduction to Browser Internals",
+    "title": "HTML & CSS Q&A Session",
     "speakers": [{
-      "name": "Pavel Guzikov",
+      "name": "Maria Putyrskaya",
       "slides": [{
-        "title": "UXD Basics",
-        "href": "http://rolling-scopes.github.io/slides/school/uxd_basics_short.pptx"
+        "title": "HTML & CSS Q&A Session",
+        "href": "#"
       }]
     }],
     "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=11&entry.1387272617"
